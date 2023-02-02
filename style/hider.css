@@ -1,0 +1,15 @@
+#hider{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(255, 255, 255, 0.75);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+#hider img{
+    height: 100vh;
+    max-height: 100vw;
+    margin: auto;
+}

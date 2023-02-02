@@ -1,0 +1,15 @@
+#sert-box-shell{
+    display: flex;
+    background-color: #FFFFEE;
+    justify-content: center;
+    width: 100%;
+}
+#sert-box{
+    display: flex;
+    width: fit-content;
+    overflow-x: scroll;
+}
+#sert-box img{
+    height: 40vh;
+    margin: 1vw;
+}

@@ -1,0 +1,81 @@
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.content {
+    margin-left: 10vw;
+    display: flex;
+    width: 80vw;
+}
+
+.grid-content {
+    display: grid;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.section-header {
+    display: inline-block;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: "Light";
+    text-align: left;
+    font-size: min(3vw, 30px);
+    margin-top: 10vw;
+    height: 0;
+    border-top: 2vw solid #FFB800;
+    border-bottom: 2vw solid #FFB800;
+    border-left: 2vw solid #FFB800;
+    border-right: 2vw solid transparent;
+}
+
+.section-header div {
+    margin-top: max(-1.8vw, -20px);
+}
+footer{
+    height: 8vw;
+    display: flex;
+    background-color: #896300;
+    justify-content:flex-end;
+    vertical-align: middle;
+}
+footer div{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2vw;
+    font-family: "Regular";
+    font-size: min(2vw, 20px);
+}
+#tel-nomber{
+    justify-content: space-between;
+    z-index: 3;
+    position: fixed;
+    bottom: 3vw;
+    background: linear-gradient(154.68deg, #FFB800 32.07%, #715100 118.08%);
+    border-radius: 5vw;
+    width: fit-content;
+    margin-left: 10vw;
+    display: flex;
+    width: 8vw;
+    height: 8vw;
+    vertical-align: middle;
+}
+#tel-nomber img{
+    width: 5vw;
+    height: 5vw;
+    margin: auto 1vw;
+}
+#tel-nomber-nom{
+    margin: auto;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    font-family: "Regular";
+    font-size: min(3vw, 50px);
+    display: none;
+    white-space:nowrap;
+}

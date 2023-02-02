@@ -1,0 +1,85 @@
+.bright-box-dv {
+    width: 99vw;
+    margin-top: 2vw;
+    background-color: #FFB800;
+    display: flex;
+    justify-content: space-between;
+}
+
+#au-first-text {
+    margin-top: 4vw;
+    font-family: "Light";
+    text-align: left;
+    font-size: min(2vw, 20px);
+    margin-bottom: 2vw;
+}
+
+#au-first-img {
+    top: 0;
+    margin-top: -5vw;
+    width: 30vw;
+    margin-bottom: 10vw;
+    margin-left: 0vw;
+}
+
+#au-second-header {
+    font-family: "Regular";
+    font-size: min(3vw, 30px);
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.au-second-line{
+    margin-top: 7vw; 
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.au-second-line-text{
+    font-family: Light;
+    font-size: min(2vw, 20px);
+    width: 76vw;
+}
+.au-second-line-dot{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 2vw;
+    background-color: #FFB800;
+    margin: auto;
+}
+
+#au-third{
+    background-color: #FFEBB7;
+    margin-top: 2vw;
+}
+
+#au-third-header {
+    font-family: "Bold";
+    font-size: min(3vw, 30px);
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
+.au-third-block-bright{
+    background-color: #FFDA7C;
+}
+
+.au-third-block-head{
+    margin-top: 4vw;
+    font-family: "Bold";
+    font-size: min(2vw, 20px);
+    display: flex;
+    justify-content: center;
+}
+.au-third-block-text{
+    margin-top: 2vw;
+    font-family: "Light";
+    font-size: min(2vw, 20px);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+.au-third-block-text div{
+    width: 60vw;
+}
